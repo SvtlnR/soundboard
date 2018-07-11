@@ -1,0 +1,58 @@
+html{
+	overflow-x: hidden;
+}
+body{
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+	height: 100vh;
+}
+header{
+	background-color: #0A122A;
+	width: 100%;
+	height: 15%;
+}
+main{
+	
+	width: 100%;
+}
+footer{
+	font-family: "Verdana";
+	color: #E0E6F8;
+	
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	height: 5%;
+	padding-left: 5%;
+}
+.hdr{
+	text-align: center;
+	color: 	#E0E6F8;
+	font-size: 400%;
+	font-family: "Verdana";
+	display: none;
+}
+.guitar, .piano, .drums, .beats, .brass{
+	width: 13%;
+	margin: 3%;
+	float: left;
+}
+.ttl{
+	font-family: "Verdana";
+	font-size: 90%;
+	color: #E0E6F8;
+	padding: 3%;
+	margin: 3%;
+}
+.btn{
+	cursor: pointer;
+	padding: 3%;
+	margin: 3%;
+	background-color: #4682B4;
+	height: 5vh;
+	width: 70%;
+	border-radius: 10px;
+}
