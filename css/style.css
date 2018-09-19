@@ -21,12 +21,8 @@ main{
 footer{
 	font-family: "Verdana";
 	color: #E0E6F8;
-<<<<<<< HEAD
 	width: 95%;
-=======
-	
 	width: 100%;
->>>>>>> 7df1e8fe3498208d34c0961ff8d2af8c4072a779
 	bottom: 0;
 	position: absolute;
 	height: 5%;
@@ -53,18 +49,14 @@ footer{
 }
 .btn{
 	cursor: pointer;
-<<<<<<< HEAD
 	font-family: "Verdana";
 	color: #E0E6F8;
-=======
->>>>>>> 7df1e8fe3498208d34c0961ff8d2af8c4072a779
 	padding: 3%;
 	margin: 3%;
 	background-color: #4682B4;
 	height: 5vh;
 	width: 70%;
 	border-radius: 10px;
-<<<<<<< HEAD
 }
 @media (max-width: 480px)
   and (orientation: portrait)
@@ -221,6 +213,4 @@ footer{
 		float: none;
 		margin: 0%;
 	}
-=======
->>>>>>> 7df1e8fe3498208d34c0961ff8d2af8c4072a779
 }
