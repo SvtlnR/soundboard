@@ -4,7 +4,7 @@ $(document).ready(function(){
 		var idbtn="#"+$(this).attr("id");
 		btnIdPlay(idbtn);
 	});
-	$('html').keydown(function(e){
+	$("html").keydown(function(e){
   		$(".btn").each(function(){
   			if($(this).attr("data-key")==e.keyCode){
   				var idbtn="#"+$(this).attr("id");
@@ -14,6 +14,6 @@ $(document).ready(function(){
   	});
 	function btnIdPlay(idbtn){
 		var audio=$(idbtn).find("audio");
-		audio.trigger('play');	
+		audio.trigger("play");	
 	}
 });
