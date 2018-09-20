@@ -1,7 +1,7 @@
-{
+module.exports = {
     "env": {
-        "node": true,
-         "jquery": true
+        "browser": true,
+        "jquery": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -25,4 +25,4 @@
             "always"
         ]
     }
-}
+};

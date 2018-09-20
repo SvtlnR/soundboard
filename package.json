@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SvtlnR/soundboard/issues"
   },
-  "homepage": "https://github.com/SvtlnR/soundboard#readme"
+  "homepage": "https://github.com/SvtlnR/soundboard#readme",
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
 }

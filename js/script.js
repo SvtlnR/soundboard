@@ -8,12 +8,12 @@ $(document).ready(function(){
   		$('.btn').each(function(){
   			if($(this).attr("data-key")==e.keyCode){
   				var idbtn="#"+$(this).attr("id");
-  				btnIdPlay(idbtn);
+  				btnIdPlay(idbtn)
   			}
   		})
   	});
 	function btnIdPlay(idbtn){
 		var audio=$(idbtn).find("audio");
-		audio.trigger("play");	
+		audio.trigger('play');	
 	}
 });
